@@ -93,7 +93,7 @@ export interface MFS {
    * @example
    *
    * ```typescript
-   * const cid = await fs.addBytes(Uint8Array.from([0, 1, 2, 3]))
+   * const cid = await fs.writeBytes(Uint8Array.from([0, 1, 2, 3]))
    *
    * console.info(cid)
    * ```
@@ -135,7 +135,7 @@ export interface MFS {
    * @example
    *
    * ```typescript
-   * const beforeCid = await fs.addBytes(Uint8Array.from([0, 1, 2, 3]))
+   * const beforeCid = await fs.writeBytes(Uint8Array.from([0, 1, 2, 3]))
    * const beforeStats = await fs.stat(beforeCid)
    *
    * const afterCid = await fs.chmod(cid, 0x755)
@@ -153,7 +153,7 @@ export interface MFS {
    * @example
    *
    * ```typescript
-   * const fileCid = await fs.addBytes(Uint8Array.from([0, 1, 2, 3]))
+   * const fileCid = await fs.writeBytes(Uint8Array.from([0, 1, 2, 3]))
    * const directoryCid = await fs.addDirectory()
    *
    * const updatedCid = await fs.cp(fileCid, directoryCid, 'foo.txt')
@@ -213,7 +213,7 @@ export interface MFS {
    * @example
    *
    * ```typescript
-   * const fileCid = await fs.addBytes(Uint8Array.from([0, 1, 2, 3]))
+   * const fileCid = await fs.writeBytes(Uint8Array.from([0, 1, 2, 3]))
    *
    * const stats = await fs.stat(fileCid)
    *
@@ -228,7 +228,7 @@ export interface MFS {
    * @example
    *
    * ```typescript
-   * const beforeCid = await fs.addBytes(Uint8Array.from([0, 1, 2, 3]))
+   * const beforeCid = await fs.writeBytes(Uint8Array.from([0, 1, 2, 3]))
    * const beforeStats = await fs.stat(beforeCid)
    *
    * const afterCid = await fs.touch(beforeCid)
