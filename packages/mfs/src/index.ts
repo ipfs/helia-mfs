@@ -109,7 +109,7 @@ export interface MFS {
    * import fs from 'node:fs'
    *
    * const stream = fs.createReadStream('./foo.txt')
-   * const cid = await fs.addByteStream(stream)
+   * const cid = await fs.writeByteStream(stream)
    *
    * console.info(cid)
    * ```
