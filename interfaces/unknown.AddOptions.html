@@ -53,6 +53,7 @@ the optional <code>signal</code> property.</p>
 <a href="unknown.AddOptions.html#onProgress" class="tsd-index-link tsd-is-inherited tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-1024"></use></svg><span>on<wbr/>Progress?</span></a>
 <a href="unknown.AddOptions.html#rawLeaves" class="tsd-index-link tsd-is-inherited tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-1024"></use></svg><span>raw<wbr/>Leaves?</span></a>
 <a href="unknown.AddOptions.html#reduceSingleLeafToSelf" class="tsd-index-link tsd-is-inherited tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-1024"></use></svg><span>reduce<wbr/>Single<wbr/>Leaf<wbr/>To<wbr/>Self?</span></a>
+<a href="unknown.AddOptions.html#shardFanoutBits" class="tsd-index-link tsd-is-inherited tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-1024"></use></svg><span>shard<wbr/>Fanout<wbr/>Bits?</span></a>
 <a href="unknown.AddOptions.html#shardSplitThresholdBytes" class="tsd-index-link tsd-is-inherited tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-1024"></use></svg><span>shard<wbr/>Split<wbr/>Threshold<wbr/>Bytes?</span></a>
 <a href="unknown.AddOptions.html#signal" class="tsd-index-link tsd-is-inherited tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-1024"></use></svg><span>signal?</span></a>
 <a href="unknown.AddOptions.html#treeBuilder" class="tsd-index-link tsd-is-inherited tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-1024"></use></svg><span>tree<wbr/>Builder?</span></a>
@@ -69,7 +70,7 @@ numbers of large files this should be high (e.g. 50). Default: 50</p>
 <div class="tsd-comment tsd-typography"></div><aside class="tsd-sources">
 <p>Inherited from Omit.blockWriteConcurrency</p>
 <ul>
-<li>Defined in node_modules/ipfs-unixfs-importer/dist/src/index.d.ts:113</li></ul></aside></section>
+<li>Defined in node_modules/ipfs-unixfs-importer/dist/src/index.d.ts:119</li></ul></aside></section>
 <section class="tsd-panel tsd-member tsd-is-inherited tsd-is-external"><a id="bufferImporter" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><code class="tsd-tag ts-flagOptional">Optional</code> <span>buffer<wbr/>Importer</span><a href="#bufferImporter" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
 <div class="tsd-signature"><span class="tsd-kind-property">buffer<wbr/>Importer</span><span class="tsd-signature-symbol">?:</span> <a href="unknown.BufferImporter.html" class="tsd-signature-type tsd-kind-interface">BufferImporter</a></div>
@@ -86,7 +87,7 @@ parallelisation is controlled by the <code>blockWriteConcurrency</code> option (
 <div class="tsd-comment tsd-typography"></div><aside class="tsd-sources">
 <p>Inherited from Omit.bufferImporter</p>
 <ul>
-<li>Defined in node_modules/ipfs-unixfs-importer/dist/src/index.d.ts:162</li></ul></aside></section>
+<li>Defined in node_modules/ipfs-unixfs-importer/dist/src/index.d.ts:168</li></ul></aside></section>
 <section class="tsd-panel tsd-member tsd-is-inherited tsd-is-external"><a id="chunkValidator" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><code class="tsd-tag ts-flagOptional">Optional</code> <span>chunk<wbr/>Validator</span><a href="#chunkValidator" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
 <div class="tsd-signature"><span class="tsd-kind-property">chunk<wbr/>Validator</span><span class="tsd-signature-symbol">?:</span> <a href="unknown.ChunkValidator.html" class="tsd-signature-type tsd-kind-interface">ChunkValidator</a></div>
@@ -99,7 +100,7 @@ It should yield <code>Buffer</code> objects constructed from the <code>source</c
 <div class="tsd-comment tsd-typography"></div><aside class="tsd-sources">
 <p>Inherited from Omit.chunkValidator</p>
 <ul>
-<li>Defined in node_modules/ipfs-unixfs-importer/dist/src/index.d.ts:171</li></ul></aside></section>
+<li>Defined in node_modules/ipfs-unixfs-importer/dist/src/index.d.ts:177</li></ul></aside></section>
 <section class="tsd-panel tsd-member tsd-is-inherited tsd-is-external"><a id="chunker" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><code class="tsd-tag ts-flagOptional">Optional</code> <span>chunker</span><a href="#chunker" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
 <div class="tsd-signature"><span class="tsd-kind-property">chunker</span><span class="tsd-signature-symbol">?:</span> <a href="unknown.Chunker.html" class="tsd-signature-type tsd-kind-interface">Chunker</a></div>
@@ -109,10 +110,10 @@ for available chunkers. Default: fixedSize</p>
 <div class="tsd-comment tsd-typography"></div><aside class="tsd-sources">
 <p>Inherited from Omit.chunker</p>
 <ul>
-<li>Defined in node_modules/ipfs-unixfs-importer/dist/src/index.d.ts:123</li></ul></aside></section>
+<li>Defined in node_modules/ipfs-unixfs-importer/dist/src/index.d.ts:129</li></ul></aside></section>
 <section class="tsd-panel tsd-member tsd-is-inherited tsd-is-external"><a id="cidVersion" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><code class="tsd-tag ts-flagOptional">Optional</code> <span>cid<wbr/>Version</span><a href="#cidVersion" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
-<div class="tsd-signature"><span class="tsd-kind-property">cid<wbr/>Version</span><span class="tsd-signature-symbol">?:</span> <a href="../types/unknown.Version.html" class="tsd-signature-type tsd-kind-type-alias">Version</a></div>
+<div class="tsd-signature"><span class="tsd-kind-property">cid<wbr/>Version</span><span class="tsd-signature-symbol">?:</span> <a href="../types/unknown.Version-1.html" class="tsd-signature-type tsd-kind-type-alias">Version</a></div>
 <div class="tsd-comment tsd-typography"><p>the CID version to use when storing the data. Default: 1</p>
 </div>
 <div class="tsd-comment tsd-typography"></div><aside class="tsd-sources">
@@ -134,7 +135,7 @@ is controlled by the <code>fileImportConcurrency</code> option (default: 50)</p>
 <div class="tsd-comment tsd-typography"></div><aside class="tsd-sources">
 <p>Inherited from Omit.dagBuilder</p>
 <ul>
-<li>Defined in node_modules/ipfs-unixfs-importer/dist/src/index.d.ts:140</li></ul></aside></section>
+<li>Defined in node_modules/ipfs-unixfs-importer/dist/src/index.d.ts:146</li></ul></aside></section>
 <section class="tsd-panel tsd-member tsd-is-inherited tsd-is-external"><a id="fileImportConcurrency" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><code class="tsd-tag ts-flagOptional">Optional</code> <span>file<wbr/>Import<wbr/>Concurrency</span><a href="#fileImportConcurrency" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
 <div class="tsd-signature"><span class="tsd-kind-property">file<wbr/>Import<wbr/>Concurrency</span><span class="tsd-signature-symbol">?:</span> <span class="tsd-signature-type">number</span></div>
@@ -144,7 +145,7 @@ should be high (e.g. 50). Default: 10</p>
 <div class="tsd-comment tsd-typography"></div><aside class="tsd-sources">
 <p>Inherited from Omit.fileImportConcurrency</p>
 <ul>
-<li>Defined in node_modules/ipfs-unixfs-importer/dist/src/index.d.ts:108</li></ul></aside></section>
+<li>Defined in node_modules/ipfs-unixfs-importer/dist/src/index.d.ts:114</li></ul></aside></section>
 <section class="tsd-panel tsd-member tsd-is-inherited tsd-is-external"><a id="layout" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><code class="tsd-tag ts-flagOptional">Optional</code> <span>layout</span><a href="#layout" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
 <div class="tsd-signature"><span class="tsd-kind-property">layout</span><span class="tsd-signature-symbol">?:</span> <a href="unknown.FileLayout.html" class="tsd-signature-type tsd-kind-interface">FileLayout</a></div>
@@ -154,7 +155,7 @@ should be high (e.g. 50). Default: 10</p>
 <div class="tsd-comment tsd-typography"></div><aside class="tsd-sources">
 <p>Inherited from Omit.layout</p>
 <ul>
-<li>Defined in node_modules/ipfs-unixfs-importer/dist/src/index.d.ts:128</li></ul></aside></section>
+<li>Defined in node_modules/ipfs-unixfs-importer/dist/src/index.d.ts:134</li></ul></aside></section>
 <section class="tsd-panel tsd-member tsd-is-inherited tsd-is-external"><a id="leafType" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><code class="tsd-tag ts-flagOptional">Optional</code> <span>leaf<wbr/>Type</span><a href="#leafType" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
 <div class="tsd-signature"><span class="tsd-kind-property">leaf<wbr/>Type</span><span class="tsd-signature-symbol">?:</span> <span class="tsd-signature-type">&quot;file&quot;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">&quot;raw&quot;</span></div>
@@ -210,6 +211,17 @@ in a leaf node which would then require additional I/O to load. Default: true</p
 <p>Inherited from Omit.reduceSingleLeafToSelf</p>
 <ul>
 <li>Defined in node_modules/ipfs-unixfs-importer/dist/src/index.d.ts:83</li></ul></aside></section>
+<section class="tsd-panel tsd-member tsd-is-inherited tsd-is-external"><a id="shardFanoutBits" class="tsd-anchor"></a>
+<h3 class="tsd-anchor-link"><code class="tsd-tag ts-flagOptional">Optional</code> <span>shard<wbr/>Fanout<wbr/>Bits</span><a href="#shardFanoutBits" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
+<div class="tsd-signature"><span class="tsd-kind-property">shard<wbr/>Fanout<wbr/>Bits</span><span class="tsd-signature-symbol">?:</span> <span class="tsd-signature-type">number</span></div>
+<div class="tsd-comment tsd-typography"><p>The number of bits of a hash digest used at each level of sharding to
+the child index. 2**shardFanoutBits will dictate the maximum number of
+children for any shard in the HAMT. Default: 8</p>
+</div>
+<div class="tsd-comment tsd-typography"></div><aside class="tsd-sources">
+<p>Inherited from Omit.shardFanoutBits</p>
+<ul>
+<li>Defined in node_modules/ipfs-unixfs-importer/dist/src/index.d.ts:109</li></ul></aside></section>
 <section class="tsd-panel tsd-member tsd-is-inherited tsd-is-external"><a id="shardSplitThresholdBytes" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><code class="tsd-tag ts-flagOptional">Optional</code> <span>shard<wbr/>Split<wbr/>Threshold<wbr/>Bytes</span><a href="#shardSplitThresholdBytes" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
 <div class="tsd-signature"><span class="tsd-kind-property">shard<wbr/>Split<wbr/>Threshold<wbr/>Bytes</span><span class="tsd-signature-symbol">?:</span> <span class="tsd-signature-type">number</span></div>
@@ -238,7 +250,7 @@ It should yield an object with the properties <code>{ cid, path, unixfs, size }<
 <div class="tsd-comment tsd-typography"></div><aside class="tsd-sources">
 <p>Inherited from Omit.treeBuilder</p>
 <ul>
-<li>Defined in node_modules/ipfs-unixfs-importer/dist/src/index.d.ts:149</li></ul></aside></section>
+<li>Defined in node_modules/ipfs-unixfs-importer/dist/src/index.d.ts:155</li></ul></aside></section>
 <section class="tsd-panel tsd-member tsd-is-inherited tsd-is-external"><a id="wrapWithDirectory" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><code class="tsd-tag ts-flagOptional">Optional</code> <span>wrap<wbr/>With<wbr/>Directory</span><a href="#wrapWithDirectory" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
 <div class="tsd-signature"><span class="tsd-kind-property">wrap<wbr/>With<wbr/>Directory</span><span class="tsd-signature-symbol">?:</span> <span class="tsd-signature-type">boolean</span></div>
@@ -248,7 +260,7 @@ will correspond to the CID of the final entry yielded. Default: false</p>
 <div class="tsd-comment tsd-typography"></div><aside class="tsd-sources">
 <p>Inherited from Omit.wrapWithDirectory</p>
 <ul>
-<li>Defined in node_modules/ipfs-unixfs-importer/dist/src/index.d.ts:118</li></ul></aside></section></section></div>
+<li>Defined in node_modules/ipfs-unixfs-importer/dist/src/index.d.ts:124</li></ul></aside></section></section></div>
 <div class="col-sidebar">
 <div class="page-menu">
 <div class="tsd-navigation settings">
@@ -280,6 +292,7 @@ will correspond to the CID of the final entry yielded. Default: false</p>
 <li><a href="#onProgress" class="tsd-is-inherited tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-1024"></use></svg><span>on<wbr/>Progress</span></a></li>
 <li><a href="#rawLeaves" class="tsd-is-inherited tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-1024"></use></svg><span>raw<wbr/>Leaves</span></a></li>
 <li><a href="#reduceSingleLeafToSelf" class="tsd-is-inherited tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-1024"></use></svg><span>reduce<wbr/>Single<wbr/>Leaf<wbr/>To<wbr/>Self</span></a></li>
+<li><a href="#shardFanoutBits" class="tsd-is-inherited tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-1024"></use></svg><span>shard<wbr/>Fanout<wbr/>Bits</span></a></li>
 <li><a href="#shardSplitThresholdBytes" class="tsd-is-inherited tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-1024"></use></svg><span>shard<wbr/>Split<wbr/>Threshold<wbr/>Bytes</span></a></li>
 <li><a href="#signal" class="tsd-is-inherited tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-1024"></use></svg><span>signal</span></a></li>
 <li><a href="#treeBuilder" class="tsd-is-inherited tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-1024"></use></svg><span>tree<wbr/>Builder</span></a></li>
@@ -349,8 +362,10 @@ will correspond to the CID of the final entry yielded. Default: false</p>
 <li><a href="unknown.KeyQueryFilter.html" class="tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-256"></use></svg><span>Key<wbr/>Query<wbr/>Filter</span></a></li>
 <li><a href="unknown.KeyQueryOrder.html" class="tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-256"></use></svg><span>Key<wbr/>Query<wbr/>Order</span></a></li>
 <li><a href="unknown.LayoutLeafProgress.html" class="tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-256"></use></svg><span>Layout<wbr/>Leaf<wbr/>Progress</span></a></li>
+<li><a href="unknown.LegacyLink.html" class="tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-256"></use></svg><span>Legacy<wbr/>Link</span></a></li>
 <li><a href="unknown.Link.html" class="tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-256"></use></svg><span>Link</span></a></li>
 <li><a href="unknown.Link-1.html" class="tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-256"></use></svg><span>Link</span></a></li>
+<li><a href="unknown.LinkJSON.html" class="tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-256"></use></svg><span>LinkJSON</span></a></li>
 <li><a href="unknown.LsOptions.html" class="tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-256"></use></svg><span>Ls<wbr/>Options</span></a></li>
 <li><a href="unknown.MkdirOptions.html" class="tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-256"></use></svg><span>Mkdir<wbr/>Options</span></a></li>
 <li><a href="unknown.Mtime.html" class="tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-256"></use></svg><span>Mtime</span></a></li>
@@ -402,6 +417,7 @@ will correspond to the CID of the final entry yielded. Default: false</p>
 <li><a href="../types/unknown.BitswapWantProgressEvents.html" class="tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4194304"></use></svg><span>Bitswap<wbr/>Want<wbr/>Progress<wbr/>Events</span></a></li>
 <li><a href="../types/unknown.BufferImportProgressEvents.html" class="tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4194304"></use></svg><span>Buffer<wbr/>Import<wbr/>Progress<wbr/>Events</span></a></li>
 <li><a href="../types/unknown.ByteStream.html" class="tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4194304"></use></svg><span>Byte<wbr/>Stream</span></a></li>
+<li><a href="../types/unknown.DAG_PB.html" class="tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4194304"></use></svg><span>DAG_<wbr/>PB</span></a></li>
 <li><a href="../types/unknown.DagBuilderProgressEvents.html" class="tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4194304"></use></svg><span>Dag<wbr/>Builder<wbr/>Progress<wbr/>Events</span></a></li>
 <li><a href="../types/unknown.DeleteBlockProgressEvents.html" class="tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4194304"></use></svg><span>Delete<wbr/>Block<wbr/>Progress<wbr/>Events</span></a></li>
 <li><a href="../types/unknown.DeleteManyBlocksProgressEvents.html" class="tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4194304"></use></svg><span>Delete<wbr/>Many<wbr/>Blocks<wbr/>Progress<wbr/>Events</span></a></li>
@@ -429,10 +445,12 @@ will correspond to the CID of the final entry yielded. Default: false</p>
 <li><a href="../types/unknown.PutManyBlocksProgressEvents.html" class="tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4194304"></use></svg><span>Put<wbr/>Many<wbr/>Blocks<wbr/>Progress<wbr/>Events</span></a></li>
 <li><a href="../types/unknown.Record.html" class="tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4194304"></use></svg><span>Record</span></a></li>
 <li><a href="../types/unknown.ReducerProgressEvents.html" class="tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4194304"></use></svg><span>Reducer<wbr/>Progress<wbr/>Events</span></a></li>
+<li><a href="../types/unknown.SHA_256.html" class="tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4194304"></use></svg><span>SHA_<wbr/>256</span></a></li>
 <li><a href="../types/unknown.SupportedEncodings.html" class="tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4194304"></use></svg><span>Supported<wbr/>Encodings</span></a></li>
 <li><a href="../types/unknown.ToString.html" class="tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4194304"></use></svg><span>To<wbr/>String</span></a></li>
 <li><a href="../types/unknown.ToString-1.html" class="tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4194304"></use></svg><span>To<wbr/>String</span></a></li>
 <li><a href="../types/unknown.UnixFSEntry.html" class="tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4194304"></use></svg><span>UnixFSEntry</span></a></li>
+<li><a href="../types/unknown.UnknownLink.html" class="tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4194304"></use></svg><span>Unknown<wbr/>Link</span></a></li>
 <li><a href="../types/unknown.Version.html" class="tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4194304"></use></svg><span>Version</span></a></li>
 <li><a href="../types/unknown.Version-1.html" class="tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4194304"></use></svg><span>Version</span></a></li>
 <li><a href="../types/unknown.WritableStorage.html" class="tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4194304"></use></svg><span>Writable<wbr/>Storage</span></a></li>
