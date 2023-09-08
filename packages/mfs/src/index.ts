@@ -218,7 +218,7 @@ export interface MFS {
   stat: (path: string, options?: Partial<StatOptions>) => Promise<UnixFSStats>
 
   /**
-   * Update the mtime of a UnixFS DAG
+   * Update the mtime of a UnixFS DAG in your MFS.
    *
    * @example
    *
