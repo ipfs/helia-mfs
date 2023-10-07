@@ -53,7 +53,7 @@
     "@helia/mfs": "^1.0.0",
     "aegir": "^41.0.3",
     "go-ipfs": "^0.22.0",
-    "helia": "2.0.3",
+    "helia": "^2.0.3",
     "ipfsd-ctl": "^13.0.0",
     "kubo-rpc-client": "^3.0.0",
     "merge-options": "^3.0.4",
